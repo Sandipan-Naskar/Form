@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Individual Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <div class="form-section">
+            <h1>Individual Registration</h1>
+            <p class="note">* mandatory.</p>
+            <p class="warning">GARBAGE/JUNK VALUES IN PROFILE MAY LEAD TO DEACTIVATION</p>
+            <p>Please use a valid E-Mail ID and mobile number in registration.</p>
+
+            <label for="userID">User ID *</label>
+            <input type="text" id="userID" name="userID" required>
+            <button type="button">Check Availability</button>
+
+            <label for="password">Password *</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirmPassword">Confirm Password *</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+            <p>If you forget your password, we will identify you with this information</p>
+            <label for="securityQuestion">Security Question *</label>
+            <select id="securityQuestion" name="securityQuestion" required>
+                <option value="petName">What is your pet name?</option>
+            </select>
+
+            <label for="securityAnswer">Security Answer *</label>
+            <input type="text" id="securityAnswer" name="securityAnswer" required>
+
+            <label for="preferredLanguage">Preferred Language *</label>
+            <select id="preferredLanguage" name="preferredLanguage" required>
+                <option value="english">English</option>
+            </select>
+        </div>
+
+        <div class="form-section">
+            <h2>Personal Details</h2>
+
+            <label for="firstName">First Name *</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="middleName">Middle Name</label>
+            <input type="text" id="middleName" name="middleName">
+
+            <label for="lastName">Last Name *</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="gender">Gender *</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+
+            <label for="maritalStatus">Marital Status *</label>
+            <input type="radio" id="married" name="maritalStatus" value="married" required>
+            <label for="married">Married</label>
+            <input type="radio" id="unmarried" name="maritalStatus" value="unmarried" required>
+            <label for="unmarried">Unmarried</label>
+
+            <label for="dob">Date Of Birth *</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="occupation">Occupation *</label>
+            <select id="occupation" name="occupation" required>
+                <option value="public">Public</option>
+            </select>
+
+            <label for="aadhaar">Aadhaar Card No</label>
+            <input type="text" id="aadhaar" name="aadhaar">
+
+            <label for="pan">PAN Card</label>
+            <input type="text" id="pan" name="pan">
+
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mobile">Mobile *</label>
+            <input type="tel" id="mobile" name="mobile" required>
+
+            <label for="nationality">Nationality *</label>
+            <select id="nationality" name="nationality" required>
+                <option value="india">India</option>
+            </select>
+        </div>
+
+        <div class="form-section">
+            <h2>Residential Address</h2>
+
+            <label for="flat">Flat/Door/Block No</label>
+            <input type="text" id="flat" name="flat">
+
+            <label for="street">Street/Lane</label>
+            <input type="text" id="street" name="street">
+
+            <label for="area">Area/Locality</label>
+            <input type="text" id="area" name="area">
+
+            <label for="country">Country *</label>
+            <select id="country" name="country" required>
+                <option value="india">India</option>
+            </select>
+
+            <label for="pin">PIN Code *</label>
+            <input type="text" id="pin" name="pin" required>
+
+            <label for="state">State *</label>
+            <select id="state" name="state" required>
+                <option value="J & K">Delhi</option>
+            </select>
+
+            <label for="city">City/Town *</label>
+            <select id="city" name="city" required>
+                <option value="Rajouri">Rajouri</option>
+            </select>
+
+            <label for="postOffice">Post Office *</label>
+            <select id="postOffice" name="postOffice" required>
+                <option value="SuranKote">SuranKote</option>
+            </select>
+
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone">
+
+            <label>Copy Residence to Office Address</label>
+            <input type="radio" id="yes" name="copyAddress" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="copyAddress" value="no" checked>
+            <label for="no">No</label>
+        </div>
+    </form>
+</body>
+</html>
