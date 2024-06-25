@@ -16,11 +16,11 @@ h1, h2 {
 }
 
 .note {
-    color: rgb(179, 0, 255);
+    color: red;
 }
 
 .warning {
-    color: rgb(219, 154, 34);
+    color: orange;
 }
 
 label {
@@ -50,7 +50,7 @@ button {
     margin-top: 10px;
     padding: 10px 15px;
     background-color: #4CAF50;
-    color: rgba(255, 255, 255, 0.318);
+    color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
